@@ -29,7 +29,7 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var noteInput: EditText
 
 
-    var selectedDate: String = ""
+    var selectedDate: String = "none"
     var average: String = ""
 
 
@@ -116,7 +116,7 @@ class MainActivity2 : AppCompatActivity() {
         submitButton.setOnClickListener {
 
 
-            if (morningInput.text.isEmpty() || afternoonInput.text.isEmpty()|| selectedDate == "" || noteInput.text.isEmpty()) {
+            if (morningInput.text.isEmpty() && afternoonInput.text.isEmpty()|| selectedDate == "none" || noteInput.text.isEmpty()) {
 
                 averageView.text = "Please enter every thing "
             } else {
@@ -133,7 +133,7 @@ class MainActivity2 : AppCompatActivity() {
                 afternoonInput.text.clear()
                 selectedDate = ""
                 seletedDayView.text = "none"
-
+                average()
             }
 
 
@@ -142,7 +142,7 @@ class MainActivity2 : AppCompatActivity() {
             println(morning)
             println(afternoon)
 
-            average()
+
         }
 
         detailPageButton.setOnClickListener {
