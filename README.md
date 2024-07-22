@@ -40,6 +40,10 @@ The Application will not alow you to enter a empty input as there is no need for
 
 ![error](https://github.com/user-attachments/assets/97bfac8a-b9c6-4c9d-abb0-44a1a70db947)
 
+**FlowChart**
+![image](https://github.com/user-attachments/assets/6d1a2f51-4ac3-4feb-abe1-69d2ed40bcdd)
+
+
 
 
 
