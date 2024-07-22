@@ -42,8 +42,17 @@ The Application will not alow you to enter a empty input as there is no need for
 
 **FlowChart**
 
+page 1
 
-![image](https://github.com/user-attachments/assets/6d1a2f51-4ac3-4feb-abe1-69d2ed40bcdd)
+![image](https://github.com/user-attachments/assets/d9969ac1-5a8d-4bf4-9ccc-d932b477bc06)
+
+page 2
+
+![image](https://github.com/user-attachments/assets/df75936a-e4a2-447e-a5f0-a127a48e2a2e)
+
+
+
+
 
 
 
